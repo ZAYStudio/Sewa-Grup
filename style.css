@@ -1,0 +1,129 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #1877f2;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+ul {
+  text-align: left;
+  margin: 10px auto;
+  display: inline-block;
+  position: relative;
+  top: -10px; /* Geser ke atas 20px */
+}
+
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #1da851;
+}
+
+.wa-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+/* Grup Facebook preview */
+.group-preview {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: left;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+
+.group-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.group-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.group-name a {
+  text-decoration: none;
+  color: #050505;
+  font-weight: bold;
+}
+
+.group-name a:hover {
+  text-decoration: underline;
+}
+
+
+.group-meta {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #606770;
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+}
+
+.group-summary-box {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 0,5rem;
+  background-color: #ffffff;
+  margin: 20px 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.watermark {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 40px;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+}
